@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title> Паспорт </title>
+    <style>
+        .container {
+            display: flex;
+            align-items: left;
+            justify-content: left
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .text {
+            padding-left: 20px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href=index.html>Вернуться на сайт</a>
+    <p><a href=screenshot.html>Скриншот</a></p>
+    <p><a href=team_to_latin.html>Сменить язык</a></p>
+
+    <table align="center" cellspacing="0" cellpadding="10" border="1" width="1000px" background="passportpage.jpg">
+        <tr>
+            <td colspan="3" width="800" height="800" valign="top">
+                <p align="center">
+                    <font size="6"> Российская федерация </font>
+                </p>
+                <p align="right"> Удостоверение личности </p>
+                <p> Выдан:
+                    <span id="givenBy"> МВД России по Новосибирской области </span>
+                    <hr>
+                </p>
+                <p> Дата выдачи:
+                    <span id="issueDate"> 31.10.2021 </span>
+                    <hr>
+                <p> Код подразделения:
+                    <span id="code"> 000-000 </span>
+                    <hr>
+                </p>
+                <p style="text-align:center;">
+                    <img src="fmsstamp.png" width="200" alt="Stamp">
+                </p>
+                <hr>
+                </p>
+                <div class="container">
+                    <div class="image">
+                        <img src="pIMG_9123 (1).jpg" width="200">
+                    </div>
+                    <div class="text">
+                        <p>Фамилия:
+                            <span id="secondName"> Мурашкин </span>
+                            <hr>
+                            Имя: <span id="firstName"> Кирилл </span>
+                            <hr>
+                            Отчество: <span id="middleName"> Денисович </span>
+                            <hr>
+                            Дата рождения: <span id="birthday"> 11.10.2001 </span>
+                            <hr>
+                            Пол: <span id="sex"> М </span>
+                            <hr>
+                            Город: <span id="city"> Новосибирск </span>
+                            <hr>
+                        </p>
+                    </div>
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3" bgcolor="white" height="100px">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
